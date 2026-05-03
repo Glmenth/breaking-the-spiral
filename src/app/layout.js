@@ -7,25 +7,12 @@ export const metadata = {
 };
 
 import MedicalDisclaimer from '../components/MedicalDisclaimer';
-
+import Header from '../components/Header';
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="container nav-container">
-            <Link href="/" className="site-logo">
-              Breaking The Spiral
-            </Link>
-            <nav className="nav-links">
-              <Link href="/ultimate-guide-mbct">Ultimate Guide</Link>
-              <Link href="/join">Join a Group</Link>
-              <Link href="/reviews/zindel-segal-course">Course Review</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contact" className="button-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>Book a Call</Link>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         <main className="main-content">
           {children}
