@@ -1,6 +1,17 @@
+"use client";
+
 export default function BookingCTA() {
   // Link to the Google Forms waitlist
   const waitlistFormLink = "https://forms.gle/mWAKdRGqJpVVnsZ17";
+
+  const handleWaitlistClick = () => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'join_waitlist_click', {
+        'event_category': 'engagement',
+        'event_label': 'Waitlist Form Link'
+      });
+    }
+  };
 
   return (
     <div className="booking-cta-section" style={{
@@ -22,6 +33,7 @@ export default function BookingCTA() {
         rel="noopener noreferrer" 
         className="button-primary"
         style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}
+        onClick={handleWaitlistClick}
       >
         Join the Waitlist
       </a>
