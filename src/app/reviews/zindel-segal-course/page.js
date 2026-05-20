@@ -47,7 +47,7 @@ export default function ZindelSegalCourseReview() {
       <div className="mt-12 pt-8 border-t border-gray-200 bg-orange-50 p-8 rounded-lg">
         <h3 className="text-2xl text-[#1a3b45] font-bold mb-4">The Alternative: Guided Live Groups</h3>
         <p className="text-lg text-gray-700 mb-6">
-          Zindel Segal's course is brilliant theory. But to put that theory into practice, you need a cohort and a guide. If you want the clinical accuracy of the founders' program but with the accountability of a live group, book a call to join my next cohort.
+          Zindel Segal's course is brilliant theory. But to put that theory into practice, you need a cohort and a guide. If you want the clinical accuracy of the founders' program but with the accountability of a live group, join the waitlist for my next cohort.
         </p>
         <BookingCTA />
       </div>

@@ -1,6 +1,6 @@
 export default function BookingCTA() {
-  // Replace this placeholder with the actual Google Calendar Appointment Schedule link
-  const googleCalendarLink = "https://calendar.google.com/calendar/u/0/appointments/schedules/YOUR_ID_HERE";
+  // Link to the Google Forms waitlist
+  const waitlistFormLink = "https://forms.gle/mWAKdRGqJpVVnsZ17";
 
   return (
     <div className="booking-cta-section" style={{
@@ -14,18 +14,16 @@ export default function BookingCTA() {
     }}>
       <h2 style={{ marginBottom: '1rem', color: 'var(--brand-primary)' }}>Ready to begin your journey?</h2>
       <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem auto' }}>
-        I run private, 8-week online MBCT groups. The best way to find out if this is the right fit for you is to schedule a free, no-obligation chat. 
-        <br/><br/>
-        <strong>Availability:</strong> Fridays, 2:00 PM - 5:00 PM (UK Time).
+        I run private, 8-week online MBCT groups. Spaces are limited and filled on a first-come, first-served basis. Join the waitlist below to be notified when the next cohort opens.
       </p>
       <a 
-        href={googleCalendarLink} 
+        href={waitlistFormLink} 
         target="_blank" 
         rel="noopener noreferrer" 
         className="button-primary"
         style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}
       >
-        Schedule a Free 15-Minute Suitability Chat
+        Join the Waitlist
       </a>
     </div>
   );

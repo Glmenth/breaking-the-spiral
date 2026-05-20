@@ -18,7 +18,7 @@ export default function Home() {
             Join a Group
           </Link>
           <Link href="/contact" className="button-secondary">
-            Book a Discovery Call
+            Join the Waitlist
           </Link>
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function Home() {
             Rather than trying to learn MBCT alone through an app or a self-paced video course, working together in a small group provides the accountability, shared experience, and real-time guidance necessary for true transformation.
           </p>
           <Link href="/contact" className="button-primary" style={{ marginTop: '1rem' }}>
-            Book a 15-Minute Suitability Chat
+            Join the Waitlist
           </Link>
         </div>
       </section>

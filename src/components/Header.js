@@ -39,7 +39,7 @@ export default function Header() {
               About
             </Link>
             <Link href="/contact" className="bg-[#1a3b45] text-white px-5 py-2 rounded-md hover:bg-[#142E35] transition-colors shadow-sm font-medium">
-              Book a Call
+              Join the Waitlist
             </Link>
           </nav>
 
@@ -106,7 +106,7 @@ export default function Header() {
                 className="block w-full text-center px-4 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-[#1a3b45] hover:bg-[#142E35]"
                 onClick={closeMenu}
               >
-                Book a Call
+                Join the Waitlist
               </Link>
             </div>
           </div>

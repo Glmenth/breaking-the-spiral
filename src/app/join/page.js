@@ -31,7 +31,7 @@ export default function JoinGroup() {
         MBCT is highly effective for preventing the relapse of depression and managing chronic anxiety. However, it is an active therapy that requires a commitment of time and energy. It is generally not recommended if you are currently experiencing a severe crisis or a deep depressive episode.
       </p>
       <p>
-        To ensure this program is the right fit for your current needs and circumstances, I require a brief suitability chat before enrolling new members.
+        Spaces are limited for each cohort. Join the waitlist below to reserve your spot and be notified as soon as enrollment opens.
       </p>
 
       <BookingCTA />
