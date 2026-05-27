@@ -19,13 +19,15 @@ export default function LeadMagnet() {
         
         <div className="flex-1 w-full max-w-md bg-gray-50 p-6 rounded-lg border border-gray-100">
           <form 
-            action="https://formspree.io/f/YOUR_FORM_ID" 
+            name="lead_magnet"
             method="POST"
+            data-netlify="true"
+            action="/thank-you"
             className="flex flex-col gap-4"
           >
-            {/* Redirect after successful submission */}
-            <input type="hidden" name="_next" value="http://localhost:3000/thank-you" />
-            <input type="hidden" name="_subject" value="New Lead Magnet Download!" />
+            {/* Netlify hidden input for form name routing */}
+            <input type="hidden" name="form-name" value="lead_magnet" />
+            <input type="hidden" name="subject" value="New Lead Magnet Download!" />
 
             <div>
               <label htmlFor="first_name" className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
