@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hidden Forms for Netlify Detection</title>
+</head>
+<body>
+  <!-- 
+    This file exists solely to help Netlify's build bots detect forms 
+    that are otherwise generated dynamically by Next.js. 
+    Ensure all form names and input fields match exactly.
+  -->
+  <form name="lead_magnet" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="first_name" />
+    <input type="email" name="email" />
+    <input type="hidden" name="subject" />
+    <input type="hidden" name="form-name" value="lead_magnet" />
+  </form>
+</body>
+</html>
