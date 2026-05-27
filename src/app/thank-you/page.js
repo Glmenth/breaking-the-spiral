@@ -17,8 +17,17 @@ export default function ThankYou() {
       
       <h1 className="text-4xl md:text-5xl font-serif text-[#1a3b45] mb-4">You're all set!</h1>
       <p className="text-xl text-gray-600 mb-8">
-        "The 3-Step Spiral Check" has been sent to your email. It should arrive in the next few minutes.
+        Your free copy of "The 3-Step Spiral Check" is ready. You can download it immediately below:
       </p>
+      
+      <a 
+        href="/3-Step-Spiral-Check.pdf" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-[#1a3b45] text-white font-bold py-3 px-8 rounded-lg shadow-md hover:bg-[#142E35] transition-colors mb-12 text-lg"
+      >
+        Download PDF Guide Now
+      </a>
 
       <div className="bg-white border-t-4 border-[#c16533] shadow-md rounded-lg p-8 text-left mt-12 mb-8 relative">
         <span className="absolute top-0 right-0 bg-[#c16533] text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg uppercase tracking-wide">
